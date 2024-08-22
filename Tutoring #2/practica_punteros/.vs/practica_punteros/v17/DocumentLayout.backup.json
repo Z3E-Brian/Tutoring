@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\Mi unidad\\A\u00F1o 3 Ciclo 2\\Tutorias\\Programacion I\\SegundaTt 7-8\\practica_punteros\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C1AC6CE6-B792-40B2-B698-EEAC20B7BE94}|practica_punteros\\practica_punteros.vcxproj|G:\\Mi unidad\\A\u00F1o 3 Ciclo 2\\Tutorias\\Programacion I\\SegundaTt 7-8\\practica_punteros\\practica_punteros\\practica_punteros.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C1AC6CE6-B792-40B2-B698-EEAC20B7BE94}|practica_punteros\\practica_punteros.vcxproj|solutionrelative:practica_punteros\\practica_punteros.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "practica_punteros.cpp",
+              "DocumentMoniker": "G:\\Mi unidad\\A\u00F1o 3 Ciclo 2\\Tutorias\\Programacion I\\SegundaTt 7-8\\practica_punteros\\practica_punteros\\practica_punteros.cpp",
+              "RelativeDocumentMoniker": "practica_punteros\\practica_punteros.cpp",
+              "ToolTip": "G:\\Mi unidad\\A\u00F1o 3 Ciclo 2\\Tutorias\\Programacion I\\SegundaTt 7-8\\practica_punteros\\practica_punteros\\practica_punteros.cpp",
+              "RelativeToolTip": "practica_punteros\\practica_punteros.cpp",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAADkAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-14T17:02:11.186Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
