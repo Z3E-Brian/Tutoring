@@ -1,0 +1,4 @@
+﻿  Contar_Elementos_Mayores.cpp
+G:\Mi unidad\Año 3 Ciclo 2\Tutorias\Programacion I\PrimeraTt 31-7\Contar_Elementos_Mayores\Contar_Elementos_Mayores\Contar_Elementos_Mayores.cpp(6,15): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+  LINK : no se encontró G:\Mi unidad\Año 3 Ciclo 2\Tutorias\Programacion I\PrimeraTt 31-7\Contar_Elementos_Mayores\x64\Debug\Contar_Elementos_Mayores.exe o no lo generó el último vínculo incremental; ejecutando vínculo completo
+  Contar_Elementos_Mayores.vcxproj -> G:\Mi unidad\Año 3 Ciclo 2\Tutorias\Programacion I\PrimeraTt 31-7\Contar_Elementos_Mayores\x64\Debug\Contar_Elementos_Mayores.exe

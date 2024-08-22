@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\Mi unidad\\A\u00F1o 3 Ciclo 2\\Tutorias\\Programacion I\\PrimeraTt 31-7\\FilaDeMatriz\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B9AE9308-D6C7-4039-A6DC-31002D4FDC4D}|FilaDeMatriz\\FilaDeMatriz.vcxproj|G:\\Mi unidad\\A\u00F1o 3 Ciclo 2\\Tutorias\\Programacion I\\PrimeraTt 31-7\\FilaDeMatriz\\FilaDeMatriz\\FilaDeMatriz.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B9AE9308-D6C7-4039-A6DC-31002D4FDC4D}|FilaDeMatriz\\FilaDeMatriz.vcxproj|solutionrelative:FilaDeMatriz\\FilaDeMatriz.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FilaDeMatriz.cpp",
+              "DocumentMoniker": "G:\\Mi unidad\\A\u00F1o 3 Ciclo 2\\Tutorias\\Programacion I\\PrimeraTt 31-7\\FilaDeMatriz\\FilaDeMatriz\\FilaDeMatriz.cpp",
+              "RelativeDocumentMoniker": "FilaDeMatriz\\FilaDeMatriz.cpp",
+              "ToolTip": "G:\\Mi unidad\\A\u00F1o 3 Ciclo 2\\Tutorias\\Programacion I\\PrimeraTt 31-7\\FilaDeMatriz\\FilaDeMatriz\\FilaDeMatriz.cpp",
+              "RelativeToolTip": "FilaDeMatriz\\FilaDeMatriz.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-31T17:00:47.831Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

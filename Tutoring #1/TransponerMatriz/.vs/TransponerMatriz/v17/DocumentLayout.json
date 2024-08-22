@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\Mi unidad\\A\u00F1o 3 Ciclo 2\\Tutorias\\Programacion I\\PrimeraTt 31-7\\TransponerMatriz\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6F11731B-40CB-42F6-8BB3-8592CE38FBBF}|TransponerMatriz\\TransponerMatriz.vcxproj|G:\\Mi unidad\\A\u00F1o 3 Ciclo 2\\Tutorias\\Programacion I\\PrimeraTt 31-7\\TransponerMatriz\\TransponerMatriz\\TransponerMatriz.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6F11731B-40CB-42F6-8BB3-8592CE38FBBF}|TransponerMatriz\\TransponerMatriz.vcxproj|solutionrelative:TransponerMatriz\\TransponerMatriz.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TransponerMatriz.cpp",
+              "DocumentMoniker": "G:\\Mi unidad\\A\u00F1o 3 Ciclo 2\\Tutorias\\Programacion I\\PrimeraTt 31-7\\TransponerMatriz\\TransponerMatriz\\TransponerMatriz.cpp",
+              "RelativeDocumentMoniker": "TransponerMatriz\\TransponerMatriz.cpp",
+              "ToolTip": "G:\\Mi unidad\\A\u00F1o 3 Ciclo 2\\Tutorias\\Programacion I\\PrimeraTt 31-7\\TransponerMatriz\\TransponerMatriz\\TransponerMatriz.cpp",
+              "RelativeToolTip": "TransponerMatriz\\TransponerMatriz.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-31T16:49:40.289Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

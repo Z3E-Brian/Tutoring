@@ -1,0 +1,3 @@
+﻿  FilaDeMatriz.cpp
+G:\Mi unidad\Año 3 Ciclo 2\Tutorias\Programacion I\PrimeraTt 31-7\FilaDeMatriz\FilaDeMatriz\FilaDeMatriz.cpp(6,15): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+  FilaDeMatriz.vcxproj -> G:\Mi unidad\Año 3 Ciclo 2\Tutorias\Programacion I\PrimeraTt 31-7\FilaDeMatriz\x64\Debug\FilaDeMatriz.exe

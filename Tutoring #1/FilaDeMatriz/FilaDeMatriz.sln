@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FilaDeMatriz", "FilaDeMatriz\FilaDeMatriz.vcxproj", "{B9AE9308-D6C7-4039-A6DC-31002D4FDC4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9AE9308-D6C7-4039-A6DC-31002D4FDC4D}.Debug|x64.ActiveCfg = Debug|x64
+		{B9AE9308-D6C7-4039-A6DC-31002D4FDC4D}.Debug|x64.Build.0 = Debug|x64
+		{B9AE9308-D6C7-4039-A6DC-31002D4FDC4D}.Debug|x86.ActiveCfg = Debug|Win32
+		{B9AE9308-D6C7-4039-A6DC-31002D4FDC4D}.Debug|x86.Build.0 = Debug|Win32
+		{B9AE9308-D6C7-4039-A6DC-31002D4FDC4D}.Release|x64.ActiveCfg = Release|x64
+		{B9AE9308-D6C7-4039-A6DC-31002D4FDC4D}.Release|x64.Build.0 = Release|x64
+		{B9AE9308-D6C7-4039-A6DC-31002D4FDC4D}.Release|x86.ActiveCfg = Release|Win32
+		{B9AE9308-D6C7-4039-A6DC-31002D4FDC4D}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85C0A38B-96EF-4778-AC10-E6A92DF6F471}
+	EndGlobalSection
+EndGlobal

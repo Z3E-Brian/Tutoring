@@ -1,0 +1,3 @@
+﻿  PromedioVector.cpp
+G:\Mi unidad\Año 3 Ciclo 2\Tutorias\Programacion I\PrimeraTt 31-7\PromedioVector\PromedioVector\PromedioVector.cpp(5,15): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+  PromedioVector.vcxproj -> G:\Mi unidad\Año 3 Ciclo 2\Tutorias\Programacion I\PrimeraTt 31-7\PromedioVector\x64\Debug\PromedioVector.exe
