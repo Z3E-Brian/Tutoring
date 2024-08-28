@@ -159,3 +159,145 @@ int main() {
 
     return 0;
 }
+
+
+Ejercicio 2: Sistema de Gestión de Biblioteca
+
+Descripción:
+
+Crea un programa en C++ que simule un sistema básico de gestión de una biblioteca. El sistema debe permitir al usuario realizar las siguientes operaciones:
+
+1. Agregar un libro: El usuario debe poder agregar un nuevo libro a la biblioteca ingresando su título, autor, año de publicación, y código de identificación (ID).
+2. Buscar un libro: El usuario debe poder buscar un libro por su título o código de identificación y mostrar la información del libro si existe.
+3. Listar todos los libros: El sistema debe permitir listar todos los libros registrados en la biblioteca, mostrando toda la información disponible de cada libro.
+4. Eliminar un libro: El usuario debe poder eliminar un libro de la biblioteca usando su código de identificación.
+
+Especificaciones:
+
+- Crea una clase `Libro` que tenga atributos para el título, autor, año de publicación, y código de identificación (ID).
+- Crea una clase `Biblioteca` que tenga un arreglo dinámico de objetos `Libro` para almacenar los libros.
+- La clase `Biblioteca` debe tener métodos para agregar, buscar, listar, y eliminar libros.
+- Maneja la memoria dinámica de manera adecuada para agregar y eliminar libros.
+
+Consideraciones:
+
+- El código debe ser escrito en un solo archivo `.cpp`.
+- Usa `using namespace std;`, `printf`, y `scanf` en lugar de `cout` y `cin`.
+- La entrada de datos debe manejarse con cuidado para evitar desbordamientos de buffer.
+
+
+
+Ejercicio 3: Sistema de Gestión de Empleados
+
+Descripción del Problema:
+
+Diseña un sistema de gestión de empleados para una empresa. Cada empleado tiene los siguientes atributos:
+
+- Nombre: Una cadena de caracteres.
+- ID: Un número entero que identifica de manera única a cada empleado.
+- Salario: Un número de punto flotante que representa el salario del empleado.
+- Departamento: Una cadena de caracteres que representa el departamento al que pertenece el empleado.
+
+El sistema debe permitir:
+
+1. Agregar un nuevo empleado: El usuario ingresará los datos de un nuevo empleado y este será agregado a un arreglo dinámico de empleados.
+2. Mostrar todos los empleados: Muestra la lista de todos los empleados, incluyendo su nombre, ID, salario y departamento.
+3. Buscar un empleado por ID: El usuario puede buscar un empleado por su ID y se deben mostrar todos los detalles del empleado.
+4. Modificar el salario de un empleado: Permite al usuario buscar un empleado por ID y modificar su salario.
+5. Eliminar un empleado por ID: Elimina un empleado del arreglo dinámico de empleados.
+
+Implementación en C++
+
+#include <iostream>
+#include <cstring>
+#include <cstdlib>
+
+using namespace std;
+
+class Empleado {
+public:
+    char nombre[50];
+    int ID;
+    float salario;
+    char departamento[50];
+
+    Empleado() {}
+
+    Empleado(const char* _nombre, int _ID, float _salario, const char* _departamento) {
+        strcpy(nombre, _nombre);
+        ID = _ID;
+        salario = _salario;
+        strcpy(departamento, _departamento);
+    }
+};
+
+void agregarEmpleado(Empleado**& empleados, int& numEmpleados);
+void mostrarEmpleados(Empleado** empleados, int numEmpleados);
+Empleado* buscarEmpleado(Empleado** empleados, int numEmpleados, int ID);
+void modificarSalario(Empleado** empleados, int numEmpleados, int ID);
+void eliminarEmpleado(Empleado**& empleados, int& numEmpleados, int ID);
+
+int main() {
+    Empleado** empleados = nullptr;
+    int numEmpleados = 0;
+    int opcion, ID;
+
+    do {
+        printf("\nMenu:\n");
+        printf("1. Agregar Empleado\n");
+        printf("2. Mostrar Empleados\n");
+        printf("3. Buscar Empleado por ID\n");
+        printf("4. Modificar Salario\n");
+        printf("5. Eliminar Empleado\n");
+        printf("6. Salir\n");
+        printf("Seleccione una opcion: ");
+        scanf("%d", &opcion);
+
+        switch (opcion) {
+            case 1:
+                agregarEmpleado(empleados, numEmpleados);
+                break;
+            case 2:
+                mostrarEmpleados(empleados, numEmpleados);
+                break;
+            case 3:
+                printf("Ingrese ID del empleado: ");
+                scanf("%d", &ID);
+                Empleado* emp;
+                emp = buscarEmpleado(empleados, numEmpleados, ID);
+                if (emp != nullptr) {
+                    printf("Empleado encontrado: %s, ID: %d, Salario: %.2f, Departamento: %s\n", 
+                            emp->nombre, emp->ID, emp->salario, emp->departamento);
+                } else {
+                    printf("Empleado con ID %d no encontrado.\n", ID);
+                }
+                break;
+            case 4:
+                printf("Ingrese ID del empleado: ");
+                scanf("%d", &ID);
+                modificarSalario(empleados, numEmpleados, ID);
+                break;
+            case 5:
+                printf("Ingrese ID del empleado: ");
+                scanf("%d", &ID);
+                eliminarEmpleado(empleados, numEmpleados, ID);
+                break;
+            case 6:
+                printf("Saliendo...\n");
+                break;
+            default:
+                printf("Opcion no valida.\n");
+        }
+    } while (opcion != 6);
+
+    // Liberar memoria
+    for (int i = 0; i < numEmpleados; i++) {
+        delete empleados[i];
+    }
+    delete[] empleados;
+
+    return 0;
+}
+
+// Funciones a implementar...
+// agregarEmpleado, mostrarEmpleados, buscarEmpleado, modificarSalario, eliminarEmpleado
