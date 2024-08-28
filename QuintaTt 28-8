@@ -1,0 +1,161 @@
+Ejercicio: Sistema de Gestión de Productos en una Tienda
+
+Descripción:
+Crea un programa que gestione un inventario de productos en una tienda. Cada producto tiene un nombre, un código de producto, y un precio. El programa debe permitir:
+
+1. Agregar productos al inventario.
+2. Mostrar la información de todos los productos.
+3. Actualizar el precio de un producto dado su código.
+4. Mostrar el producto más caro del inventario.
+
+Requisitos:
+1. Clase `Producto`:
+   - Atributos: `nombre` (string), `codigo` (int), `precio` (float).
+   - Métodos:
+     - `establecerDatos`: Establece los atributos del producto.
+     - `mostrarDatos`: Muestra la información del producto.
+     - `actualizarPrecio`: Actualiza el precio del producto.
+     - `obtenerPrecio`: Devuelve el precio del producto.
+     - `obtenerCodigo`: Devuelve el código del producto.
+
+2. Funciones:
+   - `agregarProducto`: Agrega un nuevo producto al arreglo dinámico.
+   - `mostrarInventario`: Muestra la información de todos los productos.
+   - `actualizarPrecioPorCodigo`: Actualiza el precio de un producto dado su código.
+   - `encontrarProductoMasCaro`: Encuentra y muestra el producto más caro del inventario.
+
+3. En la función `main`:
+   - Permite al usuario ingresar la cantidad de productos y luego sus datos.
+   - Permite actualizar el precio de un producto dado su código.
+   - Muestra la información de todos los productos y el producto más caro.
+
+Solución Propuesta
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+class Producto {
+private:
+    string nombre;
+    int codigo;
+    float precio;
+public:
+    void establecerDatos(string nom, int cod, float pre) {
+        nombre = nom;
+        codigo = cod;
+        precio = pre;
+    }
+
+    void mostrarDatos() {
+        printf("Nombre: %s, Código: %d, Precio: %.2f\n", nombre.c_str(), codigo, precio);
+    }
+
+    void actualizarPrecio(float nuevoPrecio) {
+        precio = nuevoPrecio;
+    }
+
+    float obtenerPrecio() {
+        return precio;
+    }
+
+    int obtenerCodigo() {
+        return codigo;
+    }
+};
+
+void agregarProducto(Producto**& inventario, int& numProductos, string nombre, int codigo, float precio) {
+    Producto* nuevoProducto = new Producto();
+    nuevoProducto->establecerDatos(nombre, codigo, precio);
+
+    Producto** nuevoInventario = new Producto*[numProductos + 1];
+    for (int i = 0; i < numProductos; i++) {
+        nuevoInventario[i] = inventario[i];
+    }
+    nuevoInventario[numProductos] = nuevoProducto;
+
+    delete[] inventario;
+    inventario = nuevoInventario;
+    numProductos++;
+}
+
+void mostrarInventario(Producto** inventario, int numProductos) {
+    printf("Información de todos los productos:\n");
+    for (int i = 0; i < numProductos; i++) {
+        inventario[i]->mostrarDatos();
+    }
+}
+
+void actualizarPrecioPorCodigo(Producto** inventario, int numProductos, int codigo, float nuevoPrecio) {
+    for (int i = 0; i < numProductos; i++) {
+        if (inventario[i]->obtenerCodigo() == codigo) {
+            inventario[i]->actualizarPrecio(nuevoPrecio);
+            printf("Precio del producto con código %d actualizado a %.2f\n", codigo, nuevoPrecio);
+            return;
+        }
+    }
+    printf("Producto con código %d no encontrado.\n", codigo);
+}
+
+void encontrarProductoMasCaro(Producto** inventario, int numProductos) {
+    if (numProductos == 0) {
+        printf("El inventario está vacío.\n");
+        return;
+    }
+
+    int indiceMasCaro = 0;
+    for (int i = 1; i < numProductos; i++) {
+        if (inventario[i]->obtenerPrecio() > inventario[indiceMasCaro]->obtenerPrecio()) {
+            indiceMasCaro = i;
+        }
+    }
+    printf("\nProducto más caro:\n");
+    inventario[indiceMasCaro]->mostrarDatos();
+}
+
+int main() {
+    int numProductos = 0;
+    Producto** inventario = nullptr;
+
+    int cantidad;
+    printf("Ingrese la cantidad de productos: ");
+    scanf("%d", &cantidad);
+
+    for (int i = 0; i < cantidad; i++) {
+        char nombre[50];
+        int codigo;
+        float precio;
+
+        printf("\nProducto %d:\n", i + 1);
+        printf("Ingrese el nombre: ");
+        scanf("%s", nombre);
+        printf("Ingrese el código: ");
+        scanf("%d", &codigo);
+        printf("Ingrese el precio: ");
+        scanf("%f", &precio);
+
+        agregarProducto(inventario, numProductos, string(nombre), codigo, precio);
+    }
+
+    mostrarInventario(inventario, numProductos);
+
+    int codigoActualizar;
+    float nuevoPrecio;
+    printf("\nIngrese el código del producto a actualizar el precio: ");
+    scanf("%d", &codigoActualizar);
+    printf("Ingrese el nuevo precio: ");
+    scanf("%f", &nuevoPrecio);
+
+    actualizarPrecioPorCodigo(inventario, numProductos, codigoActualizar, nuevoPrecio);
+
+    mostrarInventario(inventario, numProductos);
+    encontrarProductoMasCaro(inventario, numProductos);
+
+    for (int i = 0; i < numProductos; i++) {
+        delete inventario[i];
+    }
+    delete[] inventario;
+
+    return 0;
+}
