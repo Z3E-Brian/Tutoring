@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\GitHub\\Tutoring\\Tutoring #5\\Sistema de gestion de producto\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7ED6D9E6-A2EA-427B-834F-1112AC9D4FD9}|Sistema de gestion de producto\\Sistema de gestion de producto.vcxproj|C:\\Users\\Usuario\\Documents\\GitHub\\Tutoring\\Tutoring #5\\Sistema de gestion de producto\\Sistema de gestion de producto\\Sistema de gestion de producto.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7ED6D9E6-A2EA-427B-834F-1112AC9D4FD9}|Sistema de gestion de producto\\Sistema de gestion de producto.vcxproj|solutionrelative:Sistema de gestion de producto\\Sistema de gestion de producto.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Sistema de gestion de producto.cpp",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\Tutoring\\Tutoring #5\\Sistema de gestion de producto\\Sistema de gestion de producto\\Sistema de gestion de producto.cpp",
+              "RelativeDocumentMoniker": "Sistema de gestion de producto\\Sistema de gestion de producto.cpp",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\Tutoring\\Tutoring #5\\Sistema de gestion de producto\\Sistema de gestion de producto\\Sistema de gestion de producto.cpp",
+              "RelativeToolTip": "Sistema de gestion de producto\\Sistema de gestion de producto.cpp",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAAAGUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-28T19:20:38.128Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
