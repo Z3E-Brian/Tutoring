@@ -19,7 +19,7 @@ public:
         return price;
     }
 
-    // Otros getters y setters si es necesario
+    // getters y setters...
 };
 
 class SaleItem {
@@ -34,7 +34,7 @@ public:
         return product.getPrice() * quantity;
     }
 
-    // Otros métodos si es necesario
+    // Other methods
 };
 
 class Sale {
@@ -57,7 +57,7 @@ public:
         return total;
     }
 
-    // Otros métodos si es necesario
+    // Other Methods
 };
 
 class DiscountPolicy {
@@ -68,19 +68,17 @@ public:
 class CardDiscount : public DiscountPolicy {
 public:
     double getDiscount(const Sale& sale) const override {
-        // Implementa la lógica de descuento aquí
-        return sale.getTotal() * 0.10; // 10% de descuento por pago con tarjeta
+        return sale.getTotal() * 0.10;
     }
 };
 
 class QuantityDiscount : public DiscountPolicy {
 public:
     double getDiscount(const Sale& sale) const override {
-        // Implementa la lógica de descuento aquí
         double discount = 0;
         for (const auto& item : sale.items) {
             if (item.getQuantity() > 10) {
-                discount += item.getSubTotal() * 0.05; // 5% de descuento por más de 10 productos
+                discount += item.getSubTotal() * 0.05;
             }
         }
         return discount;
@@ -90,9 +88,8 @@ public:
 class MondayDiscount : public DiscountPolicy {
 public:
     double getDiscount(const Sale& sale) const override {
-        // Implementa la lógica de descuento aquí
-        // Asumiendo que se verifica si la fecha corresponde a un lunes
-        return sale.getTotal() * 0.15; // 15% de descuento los lunes
+        // Assuming that it is verified if the date corresponds to a Monday
+        return sale.getTotal() * 0.15;
     }
 };
 
