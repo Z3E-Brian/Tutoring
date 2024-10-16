@@ -1,0 +1,3 @@
+Juan,Perez;30*Masculino
+Maria,Gonzalez;25*Femenino
+Carlos,Lopez;35*Masculino

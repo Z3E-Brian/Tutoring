@@ -1,0 +1,8 @@
+﻿  FileManager.cpp
+  leerArchivos.cpp
+  Person.cpp
+  PersonManager.cpp
+  RandomMatrixManager.cpp
+C:\Users\Usuario\Documents\GitHub\Tutoring\Tutoring (6,15): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+  Generando código...
+  leerArchivos.vcxproj -> C:\Users\Usuario\Documents\GitHub\Tutoring\Tutoring #11\leerArchivos\x64\Debug\leerArchivos.exe
