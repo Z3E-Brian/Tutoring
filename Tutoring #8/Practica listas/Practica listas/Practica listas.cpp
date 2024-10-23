@@ -34,14 +34,13 @@ public:
         Nodo* nuevo = new Nodo(valor);
         if (primero == nullptr) {
             primero = nuevo;
+            return;
         }
-        else {
-            Nodo* actual = primero;
-            while (actual->siguiente != nullptr) {
-                actual = actual->siguiente;
-            }
-            actual->siguiente = nuevo;
+        Nodo* actual = primero;
+        while (actual->siguiente != nullptr) {
+            actual = actual->siguiente;
         }
+        actual->siguiente = nuevo;
     }
 
     // Mostrar los elementos de la lista
@@ -250,10 +249,8 @@ public:
         if (actual == nullptr) {
             return new Nodo(valor);
         }
-        else {
-            actual->siguiente = agregarRecursivo(actual->siguiente, valor);
-            return actual;
-        }
+        actual->siguiente = agregarRecursivo(actual->siguiente, valor);
+        return actual;
     }
 
     // Mostrar elementos de forma recursiva

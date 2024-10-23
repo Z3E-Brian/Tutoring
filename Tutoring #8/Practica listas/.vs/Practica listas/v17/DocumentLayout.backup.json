@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\GitHub\\Tutoring\\Tutoring #8\\Practica listas\\",
+  "WorkspaceRootPath": "C:\\Users\\bjzel\\Documents\\GitHub\\Tutoring\\Tutoring #8\\Practica listas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FF51F278-C657-4196-8624-2F1A68E7F2B7}|Practica listas\\Practica listas.vcxproj|C:\\Users\\Usuario\\Documents\\GitHub\\Tutoring\\Tutoring #8\\Practica listas\\Practica listas\\Practica listas.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{FF51F278-C657-4196-8624-2F1A68E7F2B7}|Practica listas\\Practica listas.vcxproj|C:\\Users\\bjzel\\Documents\\GitHub\\Tutoring\\Tutoring #8\\Practica listas\\Practica listas\\Practica listas.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{FF51F278-C657-4196-8624-2F1A68E7F2B7}|Practica listas\\Practica listas.vcxproj|solutionrelative:Practica listas\\Practica listas.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Practica listas.cpp",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\Tutoring\\Tutoring #8\\Practica listas\\Practica listas\\Practica listas.cpp",
+              "DocumentMoniker": "C:\\Users\\bjzel\\Documents\\GitHub\\Tutoring\\Tutoring #8\\Practica listas\\Practica listas\\Practica listas.cpp",
               "RelativeDocumentMoniker": "Practica listas\\Practica listas.cpp",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\Tutoring\\Tutoring #8\\Practica listas\\Practica listas\\Practica listas.cpp",
+              "ToolTip": "C:\\Users\\bjzel\\Documents\\GitHub\\Tutoring\\Tutoring #8\\Practica listas\\Practica listas\\Practica listas.cpp",
               "RelativeToolTip": "Practica listas\\Practica listas.cpp",
-              "ViewState": "AgIAAKwAAAAAAAAAAAAIwK4AAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAACEAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-18T16:17:43.792Z",
               "EditorCaption": ""
