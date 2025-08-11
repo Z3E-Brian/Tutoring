@@ -1,0 +1,3 @@
+﻿  DiagPrncMatriz.cpp
+C:\Users\bjzel\OneDrive\Documentos\GitHub\Tutoring\Tutoring #1\DiagPrncMatriz\DiagPrncMatriz\DiagPrncMatriz.cpp(8,15): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+  DiagPrncMatriz.vcxproj -> C:\Users\bjzel\OneDrive\Documentos\GitHub\Tutoring\Tutoring #1\DiagPrncMatriz\x64\Debug\DiagPrncMatriz.exe

@@ -1,0 +1,3 @@
+﻿  Contar_Elementos_Mayores.cpp
+C:\Users\bjzel\OneDrive\Documentos\GitHub\Tutoring\Tutoring #1\Contar_Elementos_Mayores\Contar_Elementos_Mayores\Contar_Elementos_Mayores.cpp(6,15): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+  Contar_Elementos_Mayores.vcxproj -> C:\Users\bjzel\OneDrive\Documentos\GitHub\Tutoring\Tutoring #1\Contar_Elementos_Mayores\x64\Debug\Contar_Elementos_Mayores.exe
