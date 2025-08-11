@@ -3,7 +3,7 @@ using namespace std;
 
 /*Ejercicio #1 */
 void sumarYModificar(int* ptr, int& ref) {
-    *ptr += ref;
+    ref += *ptr;
 }
 
 /*Ejercicio #3 */
@@ -15,14 +15,14 @@ void cambiarPuntero(int** ptr2ptr) {
 
 int main() {
     //#1
-   int num1 = 10;
+   int* num1 = new int(10);
    int num2 = 5;
+   
+    cout << "Valor antes de modificar: " << num2 << endl;
 
-    cout << "Valor antes de modificar: " << num1 << endl;
+    sumarYModificar(num1, num2); 
 
-    sumarYModificar(&num1, num2); 
-
-    cout << "Valor despues de modificar: " << num1 << endl; 
+    cout << "Valor despues de modificar: " << num2 << endl; 
 
     /**************************************************************************************/
     //#2
@@ -39,7 +39,8 @@ int main() {
 
     /**************************************************************************************/
     //#3
-        int num = 20;
+
+    int num = 20;
     int* ptr = &num;
 
     cout << "Antes de cambiar: " << *ptr << endl;

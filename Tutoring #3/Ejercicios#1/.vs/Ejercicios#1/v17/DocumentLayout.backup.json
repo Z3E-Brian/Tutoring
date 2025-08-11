@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\bjzel\\Documents\\GitHub\\Tutoring\\Tutoring #3\\Ejercicios#1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9370572C-F2FD-47F9-917B-0C93E121FF5D}|Ejercicios#1\\Ejercicios#1.vcxproj|C:\\Users\\bjzel\\Documents\\GitHub\\Tutoring\\Tutoring #3\\Ejercicios#1\\Ejercicios#1\\Ejercicios#1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9370572C-F2FD-47F9-917B-0C93E121FF5D}|Ejercicios#1\\Ejercicios#1.vcxproj|solutionrelative:Ejercicios#1\\Ejercicios#1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ejercicios#1.cpp",
+              "DocumentMoniker": "C:\\Users\\bjzel\\Documents\\GitHub\\Tutoring\\Tutoring #3\\Ejercicios#1\\Ejercicios#1\\Ejercicios#1.cpp",
+              "RelativeDocumentMoniker": "Ejercicios#1\\Ejercicios#1.cpp",
+              "ToolTip": "C:\\Users\\bjzel\\Documents\\GitHub\\Tutoring\\Tutoring #3\\Ejercicios#1\\Ejercicios#1\\Ejercicios#1.cpp",
+              "RelativeToolTip": "Ejercicios#1\\Ejercicios#1.cpp",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAAAFMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-08-11T19:42:33.769Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

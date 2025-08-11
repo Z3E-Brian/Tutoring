@@ -17,6 +17,25 @@ void imprimirArreglo(int* arr, int size) {
 
 int main() {
     //#0
+
+	int* ejemplo = new int(42);
+
+    cout << ejemplo <<endl << endl << endl << endl << endl << endl << endl << endl;
+
+	delete ejemplo;
+
+
+
+
+
+
+
+
+
+
+
+
+
     int numero = 5;
     modificarPorReferencia(numero);
     std::cout << "Numero despues de modificarPorReferencia: " << numero << std::endl; // Salida: 10
@@ -101,8 +120,6 @@ int main() {
     imprimirArreglo(arr5, 5); // Llamar a la función con el arreglo
 
     delete[] arr5; // Liberar memoria
-
-
 
 
 
