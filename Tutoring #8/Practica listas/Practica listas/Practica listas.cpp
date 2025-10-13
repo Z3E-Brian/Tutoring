@@ -43,6 +43,22 @@ public:
         actual->siguiente = nuevo;
     }
 
+	//agregar nodo en orden
+	void agregarNodoEnOrden(int valor) {
+		Nodo* nuevo = new Nodo(valor);
+		if (primero == nullptr || primero->valor >= valor) {
+			nuevo->siguiente = primero;
+			primero = nuevo;
+			return;
+		}
+		Nodo* actual = primero;
+		while (actual->siguiente != nullptr && actual->siguiente->valor < valor) {
+			actual = actual->siguiente;
+		}
+		nuevo->siguiente = actual->siguiente;
+		actual->siguiente = nuevo;
+	}
+
     // Mostrar los elementos de la lista
     void mostrar() {
         Nodo* actual = primero;

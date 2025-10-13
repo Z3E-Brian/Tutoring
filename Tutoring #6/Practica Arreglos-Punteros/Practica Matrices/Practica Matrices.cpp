@@ -195,6 +195,54 @@ int main() {
 
     delete[] arrEjercicio4;
 
+    /*************#5************/
+
+        int n;
+        cout << "Ingrese el tamaño del arreglo: ";
+        cin >> n;
+
+        // Crear arreglo dinámico
+        int* arr = new int[n];
+
+        // Llenar arreglo con valores ingresados por el usuario
+        cout << "Ingrese " << n << " numeros:" << endl;
+        for (int i = 0; i < n; i++) {
+            cin >> arr[i];
+        }
+
+        // Pedir posición y valor a insertar
+        int pos, valor;
+        cout << "Ingrese la posicion donde insertar (0 a " << n << "): ";
+        cin >> pos;
+        cout << "Ingrese el valor a insertar: ";
+        cin >> valor;
+
+        // Crear nuevo arreglo dinámico con espacio adicional
+        int* nuevoArr = new int[n + 1];
+
+        // Copiar elementos con el nuevo valor insertado
+        for (int i = 0, j = 0; i < n + 1; i++) {
+            if (i == pos) {
+                nuevoArr[i] = valor;  // insertar en la posición indicada
+            }
+            else {
+                nuevoArr[i] = arr[j];
+                j++;
+            }
+        }
+
+        // Mostrar arreglo resultante
+        cout << "Arreglo resultante: ";
+        for (int i = 0; i < n + 1; i++) {
+            cout << nuevoArr[i] << " ";
+        }
+        cout << endl;
+
+        // Liberar memoria
+        delete[] arr;
+        delete[] nuevoArr;
+
+
 
     return 0;
 }

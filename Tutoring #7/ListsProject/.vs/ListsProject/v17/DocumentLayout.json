@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\GitHub\\Tutoring\\Tutoring #7\\ListsProject\\",
+  "WorkspaceRootPath": "C:\\Users\\bjzel\\Documents\\GitHub\\Tutoring\\Tutoring #7\\ListsProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CB192095-E8EA-4873-8A5A-19356BFA6DE1}|ListsProject\\ListsProject.vcxproj|C:\\Users\\Usuario\\Documents\\GitHub\\Tutoring\\Tutoring #7\\ListsProject\\ListsProject\\ListsProject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{CB192095-E8EA-4873-8A5A-19356BFA6DE1}|ListsProject\\ListsProject.vcxproj|C:\\Users\\bjzel\\Documents\\GitHub\\Tutoring\\Tutoring #7\\ListsProject\\ListsProject\\ListsProject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CB192095-E8EA-4873-8A5A-19356BFA6DE1}|ListsProject\\ListsProject.vcxproj|solutionrelative:ListsProject\\ListsProject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ListsProject.cpp",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\Tutoring\\Tutoring #7\\ListsProject\\ListsProject\\ListsProject.cpp",
+              "DocumentMoniker": "C:\\Users\\bjzel\\Documents\\GitHub\\Tutoring\\Tutoring #7\\ListsProject\\ListsProject\\ListsProject.cpp",
               "RelativeDocumentMoniker": "ListsProject\\ListsProject.cpp",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\Tutoring\\Tutoring #7\\ListsProject\\ListsProject\\ListsProject.cpp",
+              "ToolTip": "C:\\Users\\bjzel\\Documents\\GitHub\\Tutoring\\Tutoring #7\\ListsProject\\ListsProject\\ListsProject.cpp",
               "RelativeToolTip": "ListsProject\\ListsProject.cpp",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAAAEAAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-11T15:47:45.122Z",
               "EditorCaption": ""
