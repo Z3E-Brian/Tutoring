@@ -83,3 +83,4 @@ _ReSharper*/
 .idea/
 *.sln.ide
 /.opencode
+.planning/
