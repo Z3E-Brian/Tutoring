@@ -22,7 +22,9 @@ int main() {
 
     sumarYModificar(num1, num2); 
 
-    cout << "Valor despues de modificar: " << num2 << endl; 
+    cout << "Valor despues de modificar: " << num2 << endl;
+
+    delete num1;
 
     /**************************************************************************************/
     //#2

@@ -154,7 +154,6 @@ int main() {
     printf("\n");
 
     delete[] arrEjercicio3;
-    delete[] newArrEjercicio3;
 
     /*************#4************/
     printf("Ejercicio #4\n\n");
@@ -198,10 +197,10 @@ int main() {
     /*************#5************/
 
         int n;
-        cout << "Ingrese el tamaño del arreglo: ";
+        cout << "Ingrese el tamaï¿½o del arreglo: ";
         cin >> n;
 
-        // Crear arreglo dinámico
+        // Crear arreglo dinï¿½mico
         int* arr = new int[n];
 
         // Llenar arreglo con valores ingresados por el usuario
@@ -210,20 +209,20 @@ int main() {
             cin >> arr[i];
         }
 
-        // Pedir posición y valor a insertar
+        // Pedir posiciï¿½n y valor a insertar
         int pos, valor;
         cout << "Ingrese la posicion donde insertar (0 a " << n << "): ";
         cin >> pos;
         cout << "Ingrese el valor a insertar: ";
         cin >> valor;
 
-        // Crear nuevo arreglo dinámico con espacio adicional
+        // Crear nuevo arreglo dinï¿½mico con espacio adicional
         int* nuevoArr = new int[n + 1];
 
         // Copiar elementos con el nuevo valor insertado
         for (int i = 0, j = 0; i < n + 1; i++) {
             if (i == pos) {
-                nuevoArr[i] = valor;  // insertar en la posición indicada
+                nuevoArr[i] = valor;  // insertar en la posiciï¿½n indicada
             }
             else {
                 nuevoArr[i] = arr[j];

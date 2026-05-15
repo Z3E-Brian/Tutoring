@@ -1,8 +1,10 @@
 #include <iostream>
 #include <cstdlib>
+#include <ctime>
 using namespace std;
 
 int main() {
+    srand(time(0));
     int matriz[6][6];
     int suma = 0;
 
@@ -107,11 +109,11 @@ int main() {
             cout << endl;
         }
 
-        // Pedir al usuario que introduzca un número a buscar
+        // Pedir al usuario que introduzca un nï¿½mero a buscar
         cout << "Introduce el numero a buscar: ";
         cin >> numero;
 
-        // Buscar el número en la matriz y guardar las posiciones
+        // Buscar el nï¿½mero en la matriz y guardar las posiciones
         for (int i = 0; i < tamano; i++) {
             for (int j = 0; j < tamano; j++) {
                 if (matriz0[i][j] == numero) {
@@ -122,7 +124,7 @@ int main() {
             }
         }
 
-        // Imprimir las posiciones del número encontrado
+        // Imprimir las posiciones del nï¿½mero encontrado
         if (contador > 0) {
             cout << "El numero " << numero << " se encuentra en las posiciones:" << endl;
             for (int i = 0; i < contador; i++) {
@@ -130,7 +132,7 @@ int main() {
             }
         }
         else {
-            cout << "El número " << numero << " no se encuentra en la matriz." << endl;
+            cout << "El nï¿½mero " << numero << " no se encuentra en la matriz." << endl;
         }
 
 

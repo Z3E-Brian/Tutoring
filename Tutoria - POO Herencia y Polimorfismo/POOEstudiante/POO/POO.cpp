@@ -14,11 +14,11 @@ private:
     string nombre;
     int id;
     float notaPromedio;
-	if (notaPromedio < 0 || notaPromedio > 100) {
-		throw invalid_argument("La nota promedio debe estar entre 0 y 100.");
-	}
 public:
     Estudiante(string nname, int nId, float nNotaPromedio) : nombre(nname), id(nId), notaPromedio(nNotaPromedio) {
+        if (notaPromedio < 0 || notaPromedio > 100) {
+            throw invalid_argument("La nota promedio debe estar entre 0 y 100.");
+        }
         nombre = nname;
         id = nId;
         notaPromedio = nNotaPromedio;
@@ -32,8 +32,7 @@ public:
 
     ~Estudiante() {
 		cout << "Destructor llamado para " << nombre << endl;
-        delete this;
-	}
+    }
 
     void establecerDatos(string nom, int identificacion, float nota) {
         nombre = nom;
@@ -118,7 +117,7 @@ int main() {
 //        estudiantes[i].establecerDatos(string(nombre), id, notaPromedio);
 //    }
 //
-//    printf("\nInformación de todos los estudiantes:\n");
+//    printf("\nInformaciï¿½n de todos los estudiantes:\n");
 //    for (int i = 0; i < numEstudiantes; i++) {
 //        estudiantes[i].mostrarDatos();
 //    }
