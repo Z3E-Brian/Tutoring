@@ -114,6 +114,8 @@ Tutoria - POO Sistema de Productos/
 
 ## Uso del Material
 
+### Visual Studio 2022 (recomendado)
+
 1. Clonar el repositorio:
    ```bash
    git clone https://github.com/Z3E-Brian/Tutoring.git
@@ -122,7 +124,61 @@ Tutoria - POO Sistema de Productos/
 3. Navegar a la sesion de interes y abrir el `.sln` del proyecto deseado
 4. Compilar con F5 (Debug, x64)
 
-Cada proyecto es independiente y puede compilarse por separado.
+### VS Code + GCC (MinGW)
+
+Tambien puedes compilar y ejecutar los proyectos desde VS Code usando GCC.
+
+#### 1. Instalar MinGW-w64
+
+- Descargar e instalar [MSYS2](https://www.msys2.org/)
+- Desde la terminal MSYS2, instalar GCC:
+  ```bash
+  pacman -S mingw-w64-ucrt-x86_64-gcc
+  ```
+- Agregar `C:\msys64\ucrt64\bin` al PATH del sistema
+
+Verificar la instalacion:
+```bash
+g++ --version
+```
+
+#### 2. Compilar un proyecto
+
+La mayoria de los proyectos son un solo archivo `.cpp`. Compilar desde la terminal:
+
+```bash
+cd "Tutoria - Vectores y Matrices/ContarElementosMayores/Contar_Elementos_Mayores"
+g++ Contar_Elementos_Mayores.cpp -o Contar_Elementos_Mayores.exe
+./Contar_Elementos_Mayores.exe
+```
+
+Para proyectos multi-archivo (ej. `LeerArchivos`):
+```bash
+cd "Tutoria - Archivos File IO/LeerArchivos/leerArchivos"
+g++ FileManager.cpp Person.cpp PersonManager.cpp RandomMatrixManager.cpp leerArchivos.cpp -o leerArchivos.exe
+./leerArchivos.exe
+```
+
+#### 3. Compilar desde VS Code (opcional)
+
+Crear un archivo `.vscode/tasks.json` en la raiz del proyecto:
+
+```json
+{
+    "version": "2.0.0",
+    "tasks": [{
+        "label": "g++ build",
+        "type": "shell",
+        "command": "g++",
+        "args": ["-g", "${file}", "-o", "${fileDirname}/${fileBasenameNoExtension}.exe"],
+        "group": "build"
+    }]
+}
+```
+
+Luego abrir cualquier `.cpp` y presionar `Ctrl+Shift+B` para compilar.
+
+**Nota:** Los proyectos multi-archivo como `LeerArchivos` requieren compilar todos los `.cpp` juntos (ver paso 2).
 
 ## Licencia
 
