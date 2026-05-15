@@ -195,7 +195,7 @@ int main() {
     delete[] arrEjercicio4;
 
     /*************#5************/
-
+    {
         int n;
         cout << "Ingrese el tama�o del arreglo: ";
         cin >> n;
@@ -240,8 +240,7 @@ int main() {
         // Liberar memoria
         delete[] arr;
         delete[] nuevoArr;
-
-
+    }
 
     return 0;
 }
