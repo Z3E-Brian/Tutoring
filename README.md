@@ -124,18 +124,29 @@ Tutoria - POO Sistema de Productos/
 3. Navegar a la sesion de interes y abrir el `.sln` del proyecto deseado
 4. Compilar con F5 (Debug, x64)
 
-### VS Code + GCC (MinGW)
+### VS Code + GCC (Multi-plataforma)
 
-Tambien puedes compilar y ejecutar los proyectos desde VS Code usando GCC.
+Tambien puedes compilar y ejecutar los proyectos desde VS Code usando GCC en cualquier sistema.
 
-#### 1. Instalar MinGW-w64
+#### 1. Instalar GCC
 
+**Windows (MinGW via MSYS2):**
 - Descargar e instalar [MSYS2](https://www.msys2.org/)
-- Desde la terminal MSYS2, instalar GCC:
+- Desde la terminal MSYS2:
   ```bash
   pacman -S mingw-w64-ucrt-x86_64-gcc
   ```
 - Agregar `C:\msys64\ucrt64\bin` al PATH del sistema
+
+**Linux (apt):**
+```bash
+sudo apt install g++
+```
+
+**Mac (Homebrew):**
+```bash
+brew install gcc
+```
 
 Verificar la instalacion:
 ```bash
