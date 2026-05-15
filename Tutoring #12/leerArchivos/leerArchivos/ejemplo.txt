@@ -1,3 +1,0 @@
-Hola, mundo.
-Este es un ejemplo.
-Guardando texto en un archivo.
